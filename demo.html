@@ -1,0 +1,64 @@
+---
+layout: default
+title: Demo Booking Form
+---
+<section>
+
+  <div>
+    <h2> Free Demo Lesson - Booking Form</h2>
+  </div>
+
+  <div class="demoform">
+
+    <form class="demoform" method="POST" action="http://formspree.io/flashenglishlessons@gmail.com">
+      <label class="demoform" for="name">Your name</label>
+      <input class="demoform" id="name" type="text" name="name" placeholder="E.g. John Smith">
+      <label class="demoform" for="email">Your email</label>
+      <input class="demoform" id="email" type="email" name="email" placeholder="example@example.com">
+      <label class="demoform" for="skype">What is your Skype username?</label>
+      <input class="demoform" id="skype" type="text" name="username">
+
+
+      <h3 class="makesure">Lessons take place between Monday to Friday, 9AM to 5PM UTC. Please book a time slot below accordingly.</h3>
+
+      <label class="demoform" for="demo">When would you like to have a Free Demo Lesson?</label>
+      <input class="demoform" id="demo" type="date" value="1991-07-16" />
+
+      <label class="demoform" for="time">At what time? (Please remember that lessons are scheduled in UTC)</label>
+      <input class="demoform" id="time" type="time" value="13:00" />
+
+      <label class="demoform" for="focus">What would you like to focus on during our lessons?</label>
+      <select name="focus">
+        <option value="fluency and coherence">Fluency and Coherence</option>
+        <option value="pronunciation">Pronunciation</option>
+        <option value="grammatical accuracy">Grammatical Accuracy</option>
+        <option value="all of the above">All of the above</option>
+      </select>
+
+      <label class="demoform" for="level">Do you know your level?</label>
+      <select name="level">
+        <option value="advanced">Advanced</option>
+        <option value="upperintermediate">Upper-Intermediate</option>
+        <option value="intermediate">Intermediate</option>
+        <option value="preintermediate">Pre-Intermediate</option>
+        <option value="elementary">Elementary</option>
+        <option value="beginner">Beginner</option>
+      </select>
+
+      <label class="demoform" for="frequency">How many times a week would you like to have lessons?</label>
+      <select name="frequency">
+        <option value="1">Once</option>
+        <option value="2">Twice</option>
+        <option value="3">Three times</option>
+        <option value="4">Four times</option>
+        <option value="dk">I don't know</option>
+      </select>
+
+      <label class="demoform" for="message">Why do you want to study English?</label>
+      <textarea name="message" placeholder="Your message (For example, for work, study, travel, etc.)"></textarea>
+      <a href="getback.html"><button type="submit">Submit</button></a>
+    </form>
+
+  </div>
+
+</section>
